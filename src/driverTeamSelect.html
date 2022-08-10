@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Driver/Team Select</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<script type="text/javascript" src="../scripts/driverTeamSelect.js"></script>
+</head>
+
+<body style="background-image: url('../images/driverSelectBackground.jpg">
+    <div class="navbar"><nav>
+        <ul id="menuItems">
+           <li><a href="index.php">Home</a></li>  
+           <li><a href="about.html">About</a></li>  
+           <li><a href="loginPage.php">Account<br></a></li>           
+           </ul>
+       </nav>
+   </div>
+    <div class = "driv_container">
+        <form class ="form" id="driverSelect">
+        <h1 class ="select__title" id="select_title">Select a Team or Driver</h1>
+        <label for = "names" id="select_names">Choose a team or driver:</label>
+        <select name = "names" id="names">
+            <option value="mercedes">Mercedes</option>
+            <option value="hamilton">Lewis Hamilton</option>
+            <option value="russell">George Russell</option>
+            <option value="red_bull">Red Bull</option>
+            <option value="verstappen">Max Verstappen</option>
+            <option value="perez">Sergio Perez</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="leclerc">Charles Leclerc</option>
+            <option value="sainz">Carlos Sainz</option>
+            <option value="mclaren">Mclaren</option>
+            <option value="norris">Lando Norris</option>
+            <option value="ricciardo">Daniel Ricciardo</option>
+            <option value="alphatauri">Alpha Tauri</option>
+            <option value="gasly">Pierre Gasly</option>
+            <option value="tsunoda">Yuki Tsunoda</option>
+            <option value="aston_martin">Aston Martin</option>
+            <option value="vettel">Sebastian Vettel</option>
+            <option value="stroll">Lance Stroll</option>
+            <option value="alpine">Alpine</option>
+            <option value="alonso">Fernando Alonso</option>
+            <option value="ocon">Esteban Ocon</option>
+            <option value="williams">Williams</option>
+            <option value="albon">Alexander Albon</option>
+            <option value="latifi">Nicolas Latifi</option>
+            <option value="alfa">Alfa Romeo</option>
+            <option value="bottas">Valterri Bottas</option>
+            <option value="zhou">Zhou Guanyu</option>
+            <option value="haas">Haas</option>
+            <option value="magnussen">Kevin Magnussen</option>
+            <option value="mick_schumacher">Mick Schumacher</option>
+        </select>
+        <div>
+            <button class="select__button" id="drivNext" type="button" onclick="saveName(); " accesskey="s">Next Page</button>
+        </div>
+        </form> 
+    </div>
+</body>

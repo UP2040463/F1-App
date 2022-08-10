@@ -1,0 +1,26 @@
+{
+  "name": "f1analytics",
+  "version": "1.0.0",
+  "description": "Formula 1 Analysis Application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SETAP2021/cw-code-t33.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SETAP2021/cw-code-t33/issues"
+  },
+  "homepage": "https://github.com/SETAP2021/cw-code-t33#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": []
+}

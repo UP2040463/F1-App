@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Track Select</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<script type="text/javascript" src="../scripts/selectTrack.js"></script>
+</head>
+
+<body style="background-image: url('../images/trackSelectBackground.jpg">
+    <div class="navbar"><nav>
+        <ul id="menuItems">
+           <li><a href="index.php">Home</a></li>  
+           <li><a href="about.html">About</a></li>  
+           <li><a href="loginPage.php">Account<br></a></li>           
+           </ul>
+       </nav>
+   </div>
+    <div class = "driv_container">
+        <form class ="form" id="trackSelect">
+        <h1 class ="select__title" id="select_title">Select a Track</h1>
+        <label for = "tracks" id="select_tracks">Choose a track:</label>
+        <select name = "tracks" id="tracks">
+            <option value="bahrain">Bahrain</option>
+            <option value="jeddah">Saudi Arabia</option>
+            <option value="albert_park">Australia</option>
+            <option value="imola">Imola</option>
+            <option value="miami">Miami</option>
+            <option value="catalunya">Spain</option>
+            <option value="monaco">Monaco</option>
+            <option value="baku">Azerbaijan</option>
+            <option value="villeneuve">Canada</option>
+            <option value="silverstone">Great Britain</option>
+            <option value="red_bull_ring">Austria</option>
+            <option value="ricard">France</option>
+            <option value="hungaroring">Hungary</option>
+            <option value="spa">Belgium</option>
+            <option value="zandvoort">Netherlands</option>
+            <option value="monza">Monza</option>
+            <option value="marina_bay">Singapore</option>
+            <option value="suzuka">Japan</option>
+            <option value="americas">United States</option>
+            <option value="rodriguez">Mexico</option>
+            <option value="interlagos">Brazil</option>
+            <option value="yas_marina">Abu Dhabi</option>
+        </select>
+        <div>
+            <button class="select__button" id="trackNext" type="button" onclick="saveTrack()" accesskey="s">Next Page</button>
+        </div>
+        <div>
+            <button class="select__button" id="trackBack" type="button" onclick="backTrack()">Previous Page</button>
+        </div>
+        </form> 
+    </div>
+</body>
